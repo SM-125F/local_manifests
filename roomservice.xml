@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <remote fetch="git://github.com/" name="carbonoid" revision="cr-7.0" sync-c="true" sync-j="8" />
+  <remove-project name="CarbonROM/android_bionic" />
+  <project groups="pdk" name="CarbonoidOS/android_bionic" path="bionic" remote="carbonoid" />
+  <remove-project name="CarbonROM/android_frameworks_base" />
+  <project groups="pdk-cw-fs,pdk-fs" name="CarbonoidOS/android_frameworks_base" path="frameworks/base" remote="carbonoid" />
+  <remove-project name="CarbonROM/android_packages_apps_CarbonFibers" />
+  <project name="CarbonoidOS/android_packages_apps_CarbonFibers" path="packages/apps/CarbonFibers" remote="carbonoid" />
+  <remove-project name="CarbonROM/android_packages_apps_Settings" />
+  <project groups="pdk-fs" name="CarbonoidOS/android_packages_apps_Settings" path="packages/apps/Settings" remote="carbonoid" />
+  <remove-project name="CarbonROM/android_vendor_carbon" />
+  <project name="CarbonoidOS/android_vendor_carbon" path="vendor/carbon" remote="carbonoid" />
+  <project name="CarbonoidOS/android_device_google_taimen" path="device/google/taimen" remote="carbonoid" />
+  <project name="CarbonROM/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="carbon" revision="cr-7.0" />
+  <project name="CarbonoidOS/android_device_google_wahoo" path="device/google/wahoo" remote="carbon" revision="cr-7.0" />
+</manifest>
