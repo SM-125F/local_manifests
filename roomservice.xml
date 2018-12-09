@@ -15,4 +15,5 @@
   <project name="CarbonoidOS/android_device_google_taimen" path="device/google/taimen" remote="carbonoid" />
   <project name="CarbonROM/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="carbon" revision="cr-7.0" />
   <project name="CarbonoidOS/android_device_google_wahoo" path="device/google/wahoo" remote="carbon" revision="cr-7.0" />
+  <project name="obsd39/proprietary_vendor_google" path="vendor/google" remote="carbon" revision="cr-7.0" />
 </manifest>
